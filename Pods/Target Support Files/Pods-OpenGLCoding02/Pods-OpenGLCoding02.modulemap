@@ -1,0 +1,6 @@
+framework module Pods_OpenGLCoding02 {
+  umbrella header "Pods-OpenGLCoding02-umbrella.h"
+
+  export *
+  module * { export * }
+}
