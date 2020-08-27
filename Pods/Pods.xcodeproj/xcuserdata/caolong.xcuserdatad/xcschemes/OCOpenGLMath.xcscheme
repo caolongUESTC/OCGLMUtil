@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8ABC61CCDFC475158DA1CC44357E4A23"
-               BuildableName = "OCOpenGLMath"
+               BuildableName = "OCOpenGLMath.framework"
                BlueprintName = "OCOpenGLMath"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

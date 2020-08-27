@@ -1,5 +1,9 @@
 PODS:
-  - OCOpenGLMath (0.0.1)
+  - OCOpenGLMath (0.0.1):
+    - OCOpenGLMath/math (= 0.0.1)
+    - OCOpenGLMath/util (= 0.0.1)
+  - OCOpenGLMath/math (0.0.1)
+  - OCOpenGLMath/util (0.0.1)
 
 DEPENDENCIES:
   - OCOpenGLMath (from `./module/OCOpenglMath/`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "./module/OCOpenglMath/"
 
 SPEC CHECKSUMS:
-  OCOpenGLMath: b0e684fbd34aab27e1b8891569263c9963c05c85
+  OCOpenGLMath: 7d56d011c488f098e2e3c1631925eb657c5d9944
 
 PODFILE CHECKSUM: d925df72b397b701c165a1f26c4c80a252bdd452
 

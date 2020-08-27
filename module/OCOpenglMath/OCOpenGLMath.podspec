@@ -89,12 +89,18 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
+  #spec.source_files = "Classes/**/*"
+  spec.public_header_files = "Classes/**/*.h"
 
-  # spec.public_header_files = "Classes/**/*.h"
-
-
+  spec.subspec 'math' do |ss|
+    ss.source_files = "Classes/math/*.{h,m}"
+  end
+  
+  spec.subspec 'util' do |ss|
+    ss.source_files = "Classes/util/*.{h,m}"
+  end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the

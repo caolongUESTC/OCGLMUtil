@@ -12,15 +12,21 @@
     "git": "http://www.github.com/OCOpenGLMath.git",
     "tag": "0.0.1"
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
-  ],
-  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h",
   "platforms": {
     "osx": null,
     "ios": null,
     "tvos": null,
     "watchos": null
-  }
+  },
+  "subspecs": [
+    {
+      "name": "math",
+      "source_files": "Classes/math/*.{h,m}"
+    },
+    {
+      "name": "util",
+      "source_files": "Classes/util/*.{h,m}"
+    }
+  ]
 }

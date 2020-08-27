@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6BC9C98E53BF47718E51A917 /* Pods_OpenGLCoding02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BEC82F0FC64AA85AC9339F /* Pods_OpenGLCoding02.framework */; };
+		C468F25A24FFA24E00C526C5 /* fragment.fsh in Resources */ = {isa = PBXBuildFile; fileRef = C468F25824FFA24E00C526C5 /* fragment.fsh */; };
+		C468F25B24FFA24E00C526C5 /* vertex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = C468F25924FFA24E00C526C5 /* vertex.vsh */; };
+		C468F25D24FFA27300C526C5 /* for_test.png in Resources */ = {isa = PBXBuildFile; fileRef = C468F25C24FFA27300C526C5 /* for_test.png */; };
+		C468F2682502123300C526C5 /* TimerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F2672502123300C526C5 /* TimerUtil.m */; };
 		C4D0781E24F68BFF00643462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0781D24F68BFF00643462 /* AppDelegate.m */; };
 		C4D0782124F68BFF00643462 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0782024F68BFF00643462 /* SceneDelegate.m */; };
 		C4D0782424F68BFF00643462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0782324F68BFF00643462 /* ViewController.m */; };
@@ -22,6 +26,11 @@
 		33AB55AAFFCA6A66B98D75C5 /* Pods-OpenGLCoding02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLCoding02.release.xcconfig"; path = "Target Support Files/Pods-OpenGLCoding02/Pods-OpenGLCoding02.release.xcconfig"; sourceTree = "<group>"; };
 		3EEB9E780592077B215EC4D2 /* Pods-OpenGLCoding02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLCoding02.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLCoding02/Pods-OpenGLCoding02.debug.xcconfig"; sourceTree = "<group>"; };
 		C1BEC82F0FC64AA85AC9339F /* Pods_OpenGLCoding02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGLCoding02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C468F25824FFA24E00C526C5 /* fragment.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fragment.fsh; sourceTree = "<group>"; };
+		C468F25924FFA24E00C526C5 /* vertex.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vertex.vsh; sourceTree = "<group>"; };
+		C468F25C24FFA27300C526C5 /* for_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = for_test.png; sourceTree = "<group>"; };
+		C468F2662502123300C526C5 /* TimerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerUtil.h; sourceTree = "<group>"; };
+		C468F2672502123300C526C5 /* TimerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerUtil.m; sourceTree = "<group>"; };
 		C4D0781924F68BFF00643462 /* OpenGLCoding02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLCoding02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D0781C24F68BFF00643462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4D0781D24F68BFF00643462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,8 +65,17 @@
 				3EEB9E780592077B215EC4D2 /* Pods-OpenGLCoding02.debug.xcconfig */,
 				33AB55AAFFCA6A66B98D75C5 /* Pods-OpenGLCoding02.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C468F25724FFA22200C526C5 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				C468F25C24FFA27300C526C5 /* for_test.png */,
+				C468F25824FFA24E00C526C5 /* fragment.fsh */,
+				C468F25924FFA24E00C526C5 /* vertex.vsh */,
+			);
+			path = shader;
 			sourceTree = "<group>";
 		};
 		C4D0781024F68BFF00643462 = {
@@ -81,6 +99,7 @@
 		C4D0781B24F68BFF00643462 /* OpenGLCoding02 */ = {
 			isa = PBXGroup;
 			children = (
+				C468F25724FFA22200C526C5 /* shader */,
 				C4D0783B24F68C4F00643462 /* View */,
 				C4D0781C24F68BFF00643462 /* AppDelegate.h */,
 				C4D0781D24F68BFF00643462 /* AppDelegate.m */,
@@ -102,6 +121,8 @@
 			children = (
 				C4D0783824F68C4C00643462 /* OpenGLView.h */,
 				C4D0783924F68C4C00643462 /* OpenGLView.m */,
+				C468F2662502123300C526C5 /* TimerUtil.h */,
+				C468F2672502123300C526C5 /* TimerUtil.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +146,7 @@
 				C4D0781524F68BFF00643462 /* Sources */,
 				C4D0781624F68BFF00643462 /* Frameworks */,
 				C4D0781724F68BFF00643462 /* Resources */,
+				F747A3C32DF018E89804103E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,8 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D0782C24F68C0000643462 /* LaunchScreen.storyboard in Resources */,
+				C468F25D24FFA27300C526C5 /* for_test.png in Resources */,
 				C4D0782924F68C0000643462 /* Assets.xcassets in Resources */,
 				C4D0782724F68BFF00643462 /* Main.storyboard in Resources */,
+				C468F25B24FFA24E00C526C5 /* vertex.vsh in Resources */,
+				C468F25A24FFA24E00C526C5 /* fragment.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +228,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F747A3C32DF018E89804103E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLCoding02/Pods-OpenGLCoding02-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLCoding02/Pods-OpenGLCoding02-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenGLCoding02/Pods-OpenGLCoding02-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,6 +255,7 @@
 				C4D0782424F68BFF00643462 /* ViewController.m in Sources */,
 				C4D0781E24F68BFF00643462 /* AppDelegate.m in Sources */,
 				C4D0782F24F68C0000643462 /* main.m in Sources */,
+				C468F2682502123300C526C5 /* TimerUtil.m in Sources */,
 				C4D0782124F68BFF00643462 /* SceneDelegate.m in Sources */,
 				C4D0783A24F68C4C00643462 /* OpenGLView.m in Sources */,
 			);
@@ -356,10 +399,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					GLES_SILENCE_DEPRECATION,
+				);
 				INFOPLIST_FILE = OpenGLCoding02/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"OCOpenGLMath\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.caolong.OpenGLCoding02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,9 +430,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGLCoding02/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"OCOpenGLMath\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.caolong.OpenGLCoding02;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -3,34 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		8ABC61CCDFC475158DA1CC44357E4A23 /* OCOpenGLMath */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B11370B3A3EF195F378AAB285C94F749 /* Build configuration list for PBXAggregateTarget "OCOpenGLMath" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = OCOpenGLMath;
-			productName = OCOpenGLMath;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		0EAFE6C863A1C33B5B8D054F6C6AF9FA /* OpenGLCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E025E375618CDCA9E3922958FD8F2C87 /* OpenGLCommonUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		134C4276D981C3B19B18A386E8531FD4 /* OCMat4.m in Sources */ = {isa = PBXBuildFile; fileRef = 86507F4CF640EAE47B18E0EC09E447A7 /* OCMat4.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1AB8AE752504296D8BE06D053B2F3388 /* OCOpenGLMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F19AAD4854BF7160910BC5E1B9998 /* OCOpenGLMathUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1FB4742939415615CF8DA11C6E55518A /* OCOpenGLMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A96FB6432CED4971B07648B007884183 /* OCOpenGLMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237C82EFD5A00160D1F0E5EB701AAF0D /* OpenGLCompileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C95D952AFD1B029FFDC2DDC1855D0B3 /* OpenGLCompileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4AE9E263C22A217E2DC600F8E4D7EC /* OpenGLTextureUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C637186F51EB966C083FD0FE2BABA4EB /* OpenGLTextureUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2268C6E9E9B7D2DE8451A041D4D904 /* OpenGLCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 874C15B5AF0264C86C7EFF6134329C0C /* OpenGLCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706F42DF41B9FC463EE7A6D92A9EB4F2 /* OpenGLCompileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FE779AA806A4E1C68960CFD55C91239C /* OpenGLCompileUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		767C8D9D071DC34E3DF7CF2F9E344055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9F3D40AACAF49EED2FD3060A9CDCDC43 /* Pods-OpenGLCoding02-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E099015AD6840B40A968B8885B39A5BB /* Pods-OpenGLCoding02-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4D0784424F7615800643462 /* OCOpenGLMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D0784224F7615800643462 /* OCOpenGLMathUtil.h */; };
-		C4D0784524F7615800643462 /* OCOpenGLMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0784324F7615800643462 /* OCOpenGLMathUtil.m */; };
-		C4D0784C24F7654800643462 /* OCMat4.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D0784A24F7654800643462 /* OCMat4.h */; };
-		C4D0784D24F7654800643462 /* OCMat4.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0784B24F7654800643462 /* OCMat4.m */; };
-		EC0BBE6A8858E872327D8248D468F71C /* Pods-OpenGLCoding02-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4A996983A7EAF4117604129ADE1A0 /* Pods-OpenGLCoding02-dummy.m */; };
+		773EF58392F9CCCE381F9842666FE5A8 /* OCOpenGLMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B22859B37EE84F9A55ACAC5DDE210EE1 /* OCOpenGLMath-dummy.m */; };
+		8B0B8C0C9766AFFF843D6A70F99F4165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		95BC5AE6B8D1AB1F298FC4E8E449F1A8 /* OpenGLTextureUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 311854D4CF1CB85089F3D70492D889C1 /* OpenGLTextureUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F3D40AACAF49EED2FD3060A9CDCDC43 /* Pods-OpenGLCoding02-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC625F41B2676A761E5095B4D0F69CC /* Pods-OpenGLCoding02-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC0BBE6A8858E872327D8248D468F71C /* Pods-OpenGLCoding02-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF66EEF3BD72E6C631ACA284A63D04F /* Pods-OpenGLCoding02-dummy.m */; };
+		F00AAABAAD224EB1BD0CCEA8B754A4D8 /* OCVec3.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A8DFEEC28D0FC2354F18B4AD7BE36 /* OCVec3.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F56A2A524A5873C26E7E5AC83CE17938 /* OCOpenGLMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EB46F46DB25CE0D0220386611E27CA2F /* OCOpenGLMathUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CF723343D07EBA7A82A1BA5E2A559A /* OCVec3.h in Headers */ = {isa = PBXBuildFile; fileRef = F74B3617A57644A57EF119AC96BDECCD /* OCVec3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6584C17DFC77CD780B0A3EDC314928E /* OCMat4.h in Headers */ = {isa = PBXBuildFile; fileRef = 44457FD7A6287CA541224249EF5E42B1 /* OCMat4.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		214A6CFC2B1DDD48EC7EF10421CC0453 /* PBXContainerItemProxy */ = {
+		25EAC6FF37EC9D243814F6049D21CEB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,24 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0981CFA80A9F40F5E0DBA22CBE19C61A /* OCOpenGLMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCOpenGLMath.release.xcconfig; sourceTree = "<group>"; };
-		0CEB04D14E4536B0B2FC3A1DDA6347B8 /* Pods-OpenGLCoding02.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenGLCoding02.modulemap"; sourceTree = "<group>"; };
-		1145B76EF6EB95AA090B05818301DEAA /* Pods-OpenGLCoding02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLCoding02.debug.xcconfig"; sourceTree = "<group>"; };
-		16BDBF2E83A712913C306D4CAD5095AD /* Pods-OpenGLCoding02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLCoding02.release.xcconfig"; sourceTree = "<group>"; };
-		18D4A996983A7EAF4117604129ADE1A0 /* Pods-OpenGLCoding02-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLCoding02-dummy.m"; sourceTree = "<group>"; };
+		07FFC94E1959409A9C124C96588E279E /* Pods-OpenGLCoding02-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLCoding02-Info.plist"; sourceTree = "<group>"; };
+		311854D4CF1CB85089F3D70492D889C1 /* OpenGLTextureUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenGLTextureUtil.m; path = Classes/util/OpenGLTextureUtil.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43BB30312C70FBFA75527389E1326C22 /* Pods-OpenGLCoding02-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLCoding02-Info.plist"; sourceTree = "<group>"; };
-		48FA6B6D93275BF1F7A2BDD768578562 /* Pods-OpenGLCoding02-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLCoding02-acknowledgements.plist"; sourceTree = "<group>"; };
-		6088341E99E9754E84DFF9D49519750B /* Pods-OpenGLCoding02-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLCoding02-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82DEC063E41CE7BE39F36870E0B57BFA /* OCOpenGLMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCOpenGLMath.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B88D620354995DAB33A83DA0966D1CD8 /* OCOpenGLMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCOpenGLMath.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C4D0784224F7615800643462 /* OCOpenGLMathUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCOpenGLMathUtil.h; sourceTree = "<group>"; };
-		C4D0784324F7615800643462 /* OCOpenGLMathUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCOpenGLMathUtil.m; sourceTree = "<group>"; };
-		C4D0784A24F7654800643462 /* OCMat4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMat4.h; sourceTree = "<group>"; };
-		C4D0784B24F7654800643462 /* OCMat4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMat4.m; sourceTree = "<group>"; };
-		E099015AD6840B40A968B8885B39A5BB /* Pods-OpenGLCoding02-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenGLCoding02-umbrella.h"; sourceTree = "<group>"; };
-		F9855E0C16763109C3F2370E2B3D9647 /* Pods_OpenGLCoding02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGLCoding02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416A2FC0403509A10290A229EF700753 /* Pods-OpenGLCoding02-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLCoding02-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44457FD7A6287CA541224249EF5E42B1 /* OCMat4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMat4.h; path = Classes/math/OCMat4.h; sourceTree = "<group>"; };
+		4C3BDF974915251CD270D0BAD3E81FA8 /* OCOpenGLMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCOpenGLMath.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6DF66EEF3BD72E6C631ACA284A63D04F /* Pods-OpenGLCoding02-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLCoding02-dummy.m"; sourceTree = "<group>"; };
+		74D1CE0097EE5A6AB888739AEA8620F7 /* OCOpenGLMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCOpenGLMath-Info.plist"; sourceTree = "<group>"; };
+		86507F4CF640EAE47B18E0EC09E447A7 /* OCMat4.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMat4.m; path = Classes/math/OCMat4.m; sourceTree = "<group>"; };
+		874C15B5AF0264C86C7EFF6134329C0C /* OpenGLCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLCommonUtil.h; path = Classes/util/OpenGLCommonUtil.h; sourceTree = "<group>"; };
+		895DA9DC84FF68E4A86599CE8D066997 /* Pods-OpenGLCoding02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLCoding02.release.xcconfig"; sourceTree = "<group>"; };
+		8EC625F41B2676A761E5095B4D0F69CC /* Pods-OpenGLCoding02-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenGLCoding02-umbrella.h"; sourceTree = "<group>"; };
+		975F19AAD4854BF7160910BC5E1B9998 /* OCOpenGLMathUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCOpenGLMathUtil.m; path = Classes/math/OCOpenGLMathUtil.m; sourceTree = "<group>"; };
+		9804F886FAA38A34393836B1A1DB8482 /* OCOpenGLMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCOpenGLMath.modulemap; sourceTree = "<group>"; };
+		98DBCE900BE409EBD2F425D5B4AA71D3 /* Pods-OpenGLCoding02.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenGLCoding02.modulemap"; sourceTree = "<group>"; };
+		9C95D952AFD1B029FFDC2DDC1855D0B3 /* OpenGLCompileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLCompileUtil.h; path = Classes/util/OpenGLCompileUtil.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E460E2505481D23AAE4D806DAE649D5 /* Pods-OpenGLCoding02-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLCoding02-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3FF8BD92679951DDDD61E1732DF6C48 /* OCOpenGLMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCOpenGLMath.release.xcconfig; sourceTree = "<group>"; };
+		A96FB6432CED4971B07648B007884183 /* OCOpenGLMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCOpenGLMath-umbrella.h"; sourceTree = "<group>"; };
+		A97493C958C96D30C9CFCC12E511B74D /* Pods-OpenGLCoding02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLCoding02.debug.xcconfig"; sourceTree = "<group>"; };
+		B22859B37EE84F9A55ACAC5DDE210EE1 /* OCOpenGLMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCOpenGLMath-dummy.m"; sourceTree = "<group>"; };
+		B58F221DF8F90E0F1E8889A7A5324305 /* OCOpenGLMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCOpenGLMath-prefix.pch"; sourceTree = "<group>"; };
+		BB39A2BE518322B8DA836FFAF83A6BD2 /* Pods-OpenGLCoding02-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenGLCoding02-frameworks.sh"; sourceTree = "<group>"; };
+		C637186F51EB966C083FD0FE2BABA4EB /* OpenGLTextureUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLTextureUtil.h; path = Classes/util/OpenGLTextureUtil.h; sourceTree = "<group>"; };
+		D70A8DFEEC28D0FC2354F18B4AD7BE36 /* OCVec3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCVec3.m; path = Classes/math/OCVec3.m; sourceTree = "<group>"; };
+		E025E375618CDCA9E3922958FD8F2C87 /* OpenGLCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenGLCommonUtil.m; path = Classes/util/OpenGLCommonUtil.m; sourceTree = "<group>"; };
+		E0B79431015187D987350DFA8D4FB95E /* OCOpenGLMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCOpenGLMath.debug.xcconfig; sourceTree = "<group>"; };
+		EB46F46DB25CE0D0220386611E27CA2F /* OCOpenGLMathUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCOpenGLMathUtil.h; path = Classes/math/OCOpenGLMathUtil.h; sourceTree = "<group>"; };
+		ED68310883ACF3A3F161529832F010B6 /* OCOpenGLMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCOpenGLMath.framework; path = OCOpenGLMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74B3617A57644A57EF119AC96BDECCD /* OCVec3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCVec3.h; path = Classes/math/OCVec3.h; sourceTree = "<group>"; };
+		F9855E0C16763109C3F2370E2B3D9647 /* Pods_OpenGLCoding02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenGLCoding02.framework; path = "Pods-OpenGLCoding02.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE779AA806A4E1C68960CFD55C91239C /* OpenGLCompileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenGLCompileUtil.m; path = Classes/util/OpenGLCompileUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,52 +82,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C83CB1B39F18608A96ADAD39C57903C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0B8C0C9766AFFF843D6A70F99F4165 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02D86DCE28C177A6AD735D1E88AA8B0B /* OCOpenGLMath */ = {
+		0CAA4FA42E9661D10DED88A526AAADBC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4D0783C24F75EFF00643462 /* Classes */,
-				742038D1BBA75E4B280698347942843A /* Pod */,
-				9ADD82DD6626F1E42FC6241D28A456F7 /* Support Files */,
+				A3C2B1EBA8F4E66598339F1B3B3AE802 /* OCOpenGLMath */,
 			);
-			name = OCOpenGLMath;
-			path = ../module/OCOpenglMath;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5B748702098E3976966643A31FAE0784 /* Targets Support Files */ = {
+		135842766FCF83848ED44F82238AB20A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D2B3804CA9058A33438C1C8213D9ABB7 /* Pods-OpenGLCoding02 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		742038D1BBA75E4B280698347942843A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B88D620354995DAB33A83DA0966D1CD8 /* OCOpenGLMath.podspec */,
+				4C3BDF974915251CD270D0BAD3E81FA8 /* OCOpenGLMath.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		9ADD82DD6626F1E42FC6241D28A456F7 /* Support Files */ = {
+		4E69A10E3D5217FA9C10D2FF66E9644E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82DEC063E41CE7BE39F36870E0B57BFA /* OCOpenGLMath.debug.xcconfig */,
-				0981CFA80A9F40F5E0DBA22CBE19C61A /* OCOpenGLMath.release.xcconfig */,
+				5614C453D5DA52F0E1560429C2BDEE4C /* Pods-OpenGLCoding02 */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/OCOpenGLMath";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A6475E2C82F0EADE4FBA9B02D5024AB3 /* Development Pods */ = {
+		5614C453D5DA52F0E1560429C2BDEE4C /* Pods-OpenGLCoding02 */ = {
 			isa = PBXGroup;
 			children = (
-				02D86DCE28C177A6AD735D1E88AA8B0B /* OCOpenGLMath */,
+				98DBCE900BE409EBD2F425D5B4AA71D3 /* Pods-OpenGLCoding02.modulemap */,
+				416A2FC0403509A10290A229EF700753 /* Pods-OpenGLCoding02-acknowledgements.markdown */,
+				9E460E2505481D23AAE4D806DAE649D5 /* Pods-OpenGLCoding02-acknowledgements.plist */,
+				6DF66EEF3BD72E6C631ACA284A63D04F /* Pods-OpenGLCoding02-dummy.m */,
+				BB39A2BE518322B8DA836FFAF83A6BD2 /* Pods-OpenGLCoding02-frameworks.sh */,
+				07FFC94E1959409A9C124C96588E279E /* Pods-OpenGLCoding02-Info.plist */,
+				8EC625F41B2676A761E5095B4D0F69CC /* Pods-OpenGLCoding02-umbrella.h */,
+				A97493C958C96D30C9CFCC12E511B74D /* Pods-OpenGLCoding02.debug.xcconfig */,
+				895DA9DC84FF68E4A86599CE8D066997 /* Pods-OpenGLCoding02.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-OpenGLCoding02";
+			path = "Target Support Files/Pods-OpenGLCoding02";
+			sourceTree = "<group>";
+		};
+		982AEC770DAA22A64EE7DFB048DF25F5 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				44457FD7A6287CA541224249EF5E42B1 /* OCMat4.h */,
+				86507F4CF640EAE47B18E0EC09E447A7 /* OCMat4.m */,
+				EB46F46DB25CE0D0220386611E27CA2F /* OCOpenGLMathUtil.h */,
+				975F19AAD4854BF7160910BC5E1B9998 /* OCOpenGLMathUtil.m */,
+				F74B3617A57644A57EF119AC96BDECCD /* OCVec3.h */,
+				D70A8DFEEC28D0FC2354F18B4AD7BE36 /* OCVec3.m */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		A3C2B1EBA8F4E66598339F1B3B3AE802 /* OCOpenGLMath */ = {
+			isa = PBXGroup;
+			children = (
+				982AEC770DAA22A64EE7DFB048DF25F5 /* math */,
+				135842766FCF83848ED44F82238AB20A /* Pod */,
+				E3AD6724A1B1DB6A72A5A4BCE2313332 /* Support Files */,
+				C5CF5913450912B1B07BBFFE15A83C75 /* util */,
+			);
+			name = OCOpenGLMath;
+			path = ../module/OCOpenglMath;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -125,25 +167,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4D0783C24F75EFF00643462 /* Classes */ = {
+		C5CF5913450912B1B07BBFFE15A83C75 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				C4D0784224F7615800643462 /* OCOpenGLMathUtil.h */,
-				C4D0784324F7615800643462 /* OCOpenGLMathUtil.m */,
-				C4D0784A24F7654800643462 /* OCMat4.h */,
-				C4D0784B24F7654800643462 /* OCMat4.m */,
+				874C15B5AF0264C86C7EFF6134329C0C /* OpenGLCommonUtil.h */,
+				E025E375618CDCA9E3922958FD8F2C87 /* OpenGLCommonUtil.m */,
+				9C95D952AFD1B029FFDC2DDC1855D0B3 /* OpenGLCompileUtil.h */,
+				FE779AA806A4E1C68960CFD55C91239C /* OpenGLCompileUtil.m */,
+				C637186F51EB966C083FD0FE2BABA4EB /* OpenGLTextureUtil.h */,
+				311854D4CF1CB85089F3D70492D889C1 /* OpenGLTextureUtil.m */,
 			);
-			path = Classes;
+			name = util;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A6475E2C82F0EADE4FBA9B02D5024AB3 /* Development Pods */,
+				0CAA4FA42E9661D10DED88A526AAADBC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				FDD70FD56417BAA5C35082C3A52F4058 /* Products */,
-				5B748702098E3976966643A31FAE0784 /* Targets Support Files */,
+				E78E98782027BCB8113FC94BB1F22C45 /* Products */,
+				4E69A10E3D5217FA9C10D2FF66E9644E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,25 +199,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2B3804CA9058A33438C1C8213D9ABB7 /* Pods-OpenGLCoding02 */ = {
+		E3AD6724A1B1DB6A72A5A4BCE2313332 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0CEB04D14E4536B0B2FC3A1DDA6347B8 /* Pods-OpenGLCoding02.modulemap */,
-				6088341E99E9754E84DFF9D49519750B /* Pods-OpenGLCoding02-acknowledgements.markdown */,
-				48FA6B6D93275BF1F7A2BDD768578562 /* Pods-OpenGLCoding02-acknowledgements.plist */,
-				18D4A996983A7EAF4117604129ADE1A0 /* Pods-OpenGLCoding02-dummy.m */,
-				43BB30312C70FBFA75527389E1326C22 /* Pods-OpenGLCoding02-Info.plist */,
-				E099015AD6840B40A968B8885B39A5BB /* Pods-OpenGLCoding02-umbrella.h */,
-				1145B76EF6EB95AA090B05818301DEAA /* Pods-OpenGLCoding02.debug.xcconfig */,
-				16BDBF2E83A712913C306D4CAD5095AD /* Pods-OpenGLCoding02.release.xcconfig */,
+				9804F886FAA38A34393836B1A1DB8482 /* OCOpenGLMath.modulemap */,
+				B22859B37EE84F9A55ACAC5DDE210EE1 /* OCOpenGLMath-dummy.m */,
+				74D1CE0097EE5A6AB888739AEA8620F7 /* OCOpenGLMath-Info.plist */,
+				B58F221DF8F90E0F1E8889A7A5324305 /* OCOpenGLMath-prefix.pch */,
+				A96FB6432CED4971B07648B007884183 /* OCOpenGLMath-umbrella.h */,
+				E0B79431015187D987350DFA8D4FB95E /* OCOpenGLMath.debug.xcconfig */,
+				A3FF8BD92679951DDDD61E1732DF6C48 /* OCOpenGLMath.release.xcconfig */,
 			);
-			name = "Pods-OpenGLCoding02";
-			path = "Target Support Files/Pods-OpenGLCoding02";
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/OCOpenGLMath";
 			sourceTree = "<group>";
 		};
-		FDD70FD56417BAA5C35082C3A52F4058 /* Products */ = {
+		E78E98782027BCB8113FC94BB1F22C45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				ED68310883ACF3A3F161529832F010B6 /* OCOpenGLMath.framework */,
 				F9855E0C16763109C3F2370E2B3D9647 /* Pods_OpenGLCoding02.framework */,
 			);
 			name = Products;
@@ -182,13 +226,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		262FC103537555EF339414FF542E2DC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6584C17DFC77CD780B0A3EDC314928E /* OCMat4.h in Headers */,
+				1FB4742939415615CF8DA11C6E55518A /* OCOpenGLMath-umbrella.h in Headers */,
+				F56A2A524A5873C26E7E5AC83CE17938 /* OCOpenGLMathUtil.h in Headers */,
+				F5CF723343D07EBA7A82A1BA5E2A559A /* OCVec3.h in Headers */,
+				6F2268C6E9E9B7D2DE8451A041D4D904 /* OpenGLCommonUtil.h in Headers */,
+				237C82EFD5A00160D1F0E5EB701AAF0D /* OpenGLCompileUtil.h in Headers */,
+				3A4AE9E263C22A217E2DC600F8E4D7EC /* OpenGLTextureUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4990335F7CB07EFD4692CFA576115601 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F3D40AACAF49EED2FD3060A9CDCDC43 /* Pods-OpenGLCoding02-umbrella.h in Headers */,
-				C4D0784424F7615800643462 /* OCOpenGLMathUtil.h in Headers */,
-				C4D0784C24F7654800643462 /* OCMat4.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,11 +263,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAF9DF6BDCA66240918BB00F55168F1C /* PBXTargetDependency */,
+				EDCC452FFC430A3E0E0CD2F59BA30AB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-OpenGLCoding02";
 			productName = "Pods-OpenGLCoding02";
 			productReference = F9855E0C16763109C3F2370E2B3D9647 /* Pods_OpenGLCoding02.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ABC61CCDFC475158DA1CC44357E4A23 /* OCOpenGLMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4CA4647C00AD3AB73287110B3313D3 /* Build configuration list for PBXNativeTarget "OCOpenGLMath" */;
+			buildPhases = (
+				262FC103537555EF339414FF542E2DC6 /* Headers */,
+				3EBBBF44B37EA1471C93A518861B9EDA /* Sources */,
+				C83CB1B39F18608A96ADAD39C57903C7 /* Frameworks */,
+				C3B83C3ACCF1D50B4EEF6E0E0F002706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCOpenGLMath;
+			productName = OCOpenGLMath;
+			productReference = ED68310883ACF3A3F161529832F010B6 /* OCOpenGLMath.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +298,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,7 +306,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FDD70FD56417BAA5C35082C3A52F4058 /* Products */;
+			productRefGroup = E78E98782027BCB8113FC94BB1F22C45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -250,6 +324,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3B83C3ACCF1D50B4EEF6E0E0F002706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,43 +338,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D0784D24F7654800643462 /* OCMat4.m in Sources */,
-				C4D0784524F7615800643462 /* OCOpenGLMathUtil.m in Sources */,
 				EC0BBE6A8858E872327D8248D468F71C /* Pods-OpenGLCoding02-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBBBF44B37EA1471C93A518861B9EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C4276D981C3B19B18A386E8531FD4 /* OCMat4.m in Sources */,
+				773EF58392F9CCCE381F9842666FE5A8 /* OCOpenGLMath-dummy.m in Sources */,
+				1AB8AE752504296D8BE06D053B2F3388 /* OCOpenGLMathUtil.m in Sources */,
+				F00AAABAAD224EB1BD0CCEA8B754A4D8 /* OCVec3.m in Sources */,
+				0EAFE6C863A1C33B5B8D054F6C6AF9FA /* OpenGLCommonUtil.m in Sources */,
+				706F42DF41B9FC463EE7A6D92A9EB4F2 /* OpenGLCompileUtil.m in Sources */,
+				95BC5AE6B8D1AB1F298FC4E8E449F1A8 /* OpenGLTextureUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EAF9DF6BDCA66240918BB00F55168F1C /* PBXTargetDependency */ = {
+		EDCC452FFC430A3E0E0CD2F59BA30AB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCOpenGLMath;
 			target = 8ABC61CCDFC475158DA1CC44357E4A23 /* OCOpenGLMath */;
-			targetProxy = 214A6CFC2B1DDD48EC7EF10421CC0453 /* PBXContainerItemProxy */;
+			targetProxy = 25EAC6FF37EC9D243814F6049D21CEB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CF4E00D63603DFB1EBF6B002C6C260F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82DEC063E41CE7BE39F36870E0B57BFA /* OCOpenGLMath.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		101543171A139D1D63E14A50C1CFD056 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16BDBF2E83A712913C306D4CAD5095AD /* Pods-OpenGLCoding02.release.xcconfig */;
+			baseConfigurationReference = 895DA9DC84FF68E4A86599CE8D066997 /* Pods-OpenGLCoding02.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -332,7 +409,7 @@
 		};
 		52C29763DE4FA70620E07F4E128F3F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1145B76EF6EB95AA090B05818301DEAA /* Pods-OpenGLCoding02.debug.xcconfig */;
+			baseConfigurationReference = A97493C958C96D30C9CFCC12E511B74D /* Pods-OpenGLCoding02.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -367,6 +444,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		640AB4D81B9937B1E730DB3E3B2C9D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FF8BD92679951DDDD61E1732DF6C48 /* OCOpenGLMath.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCOpenGLMath/OCOpenGLMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCOpenGLMath/OCOpenGLMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCOpenGLMath/OCOpenGLMath.modulemap";
+				PRODUCT_MODULE_NAME = OCOpenGLMath;
+				PRODUCT_NAME = OCOpenGLMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -432,23 +544,6 @@
 			};
 			name = Debug;
 		};
-		E3E0D27962F041BAD0E66D0D92ECACD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0981CFA80A9F40F5E0DBA22CBE19C61A /* OCOpenGLMath.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,6 +604,40 @@
 			};
 			name = Release;
 		};
+		EED41854CDEDA27BEF2C2E601145B7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B79431015187D987350DFA8D4FB95E /* OCOpenGLMath.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCOpenGLMath/OCOpenGLMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCOpenGLMath/OCOpenGLMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCOpenGLMath/OCOpenGLMath.modulemap";
+				PRODUCT_MODULE_NAME = OCOpenGLMath;
+				PRODUCT_NAME = OCOpenGLMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,20 +650,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7F4CA4647C00AD3AB73287110B3313D3 /* Build configuration list for PBXNativeTarget "OCOpenGLMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED41854CDEDA27BEF2C2E601145B7CB /* Debug */,
+				640AB4D81B9937B1E730DB3E3B2C9D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8100159FEE7C54C43AA4B705D2C1FF7 /* Build configuration list for PBXNativeTarget "Pods-OpenGLCoding02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C29763DE4FA70620E07F4E128F3F88 /* Debug */,
 				101543171A139D1D63E14A50C1CFD056 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B11370B3A3EF195F378AAB285C94F749 /* Build configuration list for PBXAggregateTarget "OCOpenGLMath" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0CF4E00D63603DFB1EBF6B002C6C260F /* Debug */,
-				E3E0D27962F041BAD0E66D0D92ECACD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
